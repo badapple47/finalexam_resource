@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A6795E41FAAD1D100B4BF95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6795E31FAAD1D100B4BF95 /* AppDelegate.swift */; };
+		8A6795E61FAAD1D100B4BF95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6795E51FAAD1D100B4BF95 /* ViewController.swift */; };
+		8A6795E91FAAD1D100B4BF95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795E71FAAD1D100B4BF95 /* Main.storyboard */; };
+		8A6795EB1FAAD1D100B4BF95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795EA1FAAD1D100B4BF95 /* Assets.xcassets */; };
+		8A6795EE1FAAD1D100B4BF95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795EC1FAAD1D100B4BF95 /* LaunchScreen.storyboard */; };
+		8A6795F81FAAD28E00B4BF95 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795F51FAAD28E00B4BF95 /* 2.jpg */; };
+		8A6795F91FAAD28E00B4BF95 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795F61FAAD28E00B4BF95 /* 3.jpg */; };
+		8A6795FA1FAAD28E00B4BF95 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795F71FAAD28E00B4BF95 /* 1.jpg */; };
+		8A6795FC1FAAD70800B4BF95 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795FB1FAAD70800B4BF95 /* song.mp3 */; };
+		8A6795FE1FAAD70C00B4BF95 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8A6795FD1FAAD70C00B4BF95 /* song2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A6795E01FAAD1D100B4BF95 /* Ex3_Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex3_Gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6795E31FAAD1D100B4BF95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A6795E51FAAD1D100B4BF95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A6795E81FAAD1D100B4BF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A6795EA1FAAD1D100B4BF95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A6795ED1FAAD1D100B4BF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A6795EF1FAAD1D100B4BF95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6795F51FAAD28E00B4BF95 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8A6795F61FAAD28E00B4BF95 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		8A6795F71FAAD28E00B4BF95 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8A6795FB1FAAD70800B4BF95 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		8A6795FD1FAAD70C00B4BF95 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6795DD1FAAD1D100B4BF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A6795D71FAAD1D100B4BF95 = {
+			isa = PBXGroup;
+			children = (
+				8A6795E21FAAD1D100B4BF95 /* Ex3_Gesture */,
+				8A6795E11FAAD1D100B4BF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A6795E11FAAD1D100B4BF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A6795E01FAAD1D100B4BF95 /* Ex3_Gesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A6795E21FAAD1D100B4BF95 /* Ex3_Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				8A6795FB1FAAD70800B4BF95 /* song.mp3 */,
+				8A6795FD1FAAD70C00B4BF95 /* song2.mp3 */,
+				8A6795E31FAAD1D100B4BF95 /* AppDelegate.swift */,
+				8A6795E51FAAD1D100B4BF95 /* ViewController.swift */,
+				8A6795E71FAAD1D100B4BF95 /* Main.storyboard */,
+				8A6795F71FAAD28E00B4BF95 /* 1.jpg */,
+				8A6795F51FAAD28E00B4BF95 /* 2.jpg */,
+				8A6795F61FAAD28E00B4BF95 /* 3.jpg */,
+				8A6795EA1FAAD1D100B4BF95 /* Assets.xcassets */,
+				8A6795EC1FAAD1D100B4BF95 /* LaunchScreen.storyboard */,
+				8A6795EF1FAAD1D100B4BF95 /* Info.plist */,
+			);
+			path = Ex3_Gesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A6795DF1FAAD1D100B4BF95 /* Ex3_Gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A6795F21FAAD1D100B4BF95 /* Build configuration list for PBXNativeTarget "Ex3_Gesture" */;
+			buildPhases = (
+				8A6795DC1FAAD1D100B4BF95 /* Sources */,
+				8A6795DD1FAAD1D100B4BF95 /* Frameworks */,
+				8A6795DE1FAAD1D100B4BF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ex3_Gesture;
+			productName = Ex3_Gesture;
+			productReference = 8A6795E01FAAD1D100B4BF95 /* Ex3_Gesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A6795D81FAAD1D100B4BF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Pathompong Chaisri";
+				TargetAttributes = {
+					8A6795DF1FAAD1D100B4BF95 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A6795DB1FAAD1D100B4BF95 /* Build configuration list for PBXProject "Ex3_Gesture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A6795D71FAAD1D100B4BF95;
+			productRefGroup = 8A6795E11FAAD1D100B4BF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A6795DF1FAAD1D100B4BF95 /* Ex3_Gesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A6795DE1FAAD1D100B4BF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6795FE1FAAD70C00B4BF95 /* song2.mp3 in Resources */,
+				8A6795F91FAAD28E00B4BF95 /* 3.jpg in Resources */,
+				8A6795EE1FAAD1D100B4BF95 /* LaunchScreen.storyboard in Resources */,
+				8A6795EB1FAAD1D100B4BF95 /* Assets.xcassets in Resources */,
+				8A6795FC1FAAD70800B4BF95 /* song.mp3 in Resources */,
+				8A6795FA1FAAD28E00B4BF95 /* 1.jpg in Resources */,
+				8A6795F81FAAD28E00B4BF95 /* 2.jpg in Resources */,
+				8A6795E91FAAD1D100B4BF95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A6795DC1FAAD1D100B4BF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A6795E61FAAD1D100B4BF95 /* ViewController.swift in Sources */,
+				8A6795E41FAAD1D100B4BF95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A6795E71FAAD1D100B4BF95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6795E81FAAD1D100B4BF95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A6795EC1FAAD1D100B4BF95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A6795ED1FAAD1D100B4BF95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A6795F01FAAD1D100B4BF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A6795F11FAAD1D100B4BF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A6795F31FAAD1D100B4BF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTN4NV25WD;
+				INFOPLIST_FILE = Ex3_Gesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developers.Ex3-Gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A6795F41FAAD1D100B4BF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GTN4NV25WD;
+				INFOPLIST_FILE = Ex3_Gesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developers.Ex3-Gesture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A6795DB1FAAD1D100B4BF95 /* Build configuration list for PBXProject "Ex3_Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6795F01FAAD1D100B4BF95 /* Debug */,
+				8A6795F11FAAD1D100B4BF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A6795F21FAAD1D100B4BF95 /* Build configuration list for PBXNativeTarget "Ex3_Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A6795F31FAAD1D100B4BF95 /* Debug */,
+				8A6795F41FAAD1D100B4BF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A6795D81FAAD1D100B4BF95 /* Project object */;
+}

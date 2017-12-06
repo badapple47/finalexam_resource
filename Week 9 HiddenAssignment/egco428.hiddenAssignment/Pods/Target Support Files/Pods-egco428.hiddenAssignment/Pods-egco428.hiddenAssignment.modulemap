@@ -1,0 +1,6 @@
+framework module Pods_egco428_hiddenAssignment {
+  umbrella header "Pods-egco428.hiddenAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
